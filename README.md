@@ -85,7 +85,7 @@ Just as strings are defined as characters between quotes, lists are defined by h
 >>> nums
 [45, 677, 6, 567]
 
->>> nums.extend ([36,783,8,995,377,37,83])  //# extends for add the value in the end of the list values.
+>>> nums.extend ([36,783,8,995,377,37,83])       //# extend for add the value in the end of the list values.
 >>> nums
 [45, 677, 6, 567, 36, 783, 8, 995, 377, 37, 83]
 >>> del nums [3:6]
