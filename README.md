@@ -3,7 +3,7 @@ In this i have covered all the functions of list in python
 Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:43:08) [MSC v.1926 32 bit (Intel)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
 >>> 
->>> #List#
+# List:
 A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements. 
 Each element or value that is inside of a list is called an item. 
 Just as strings are defined as characters between quotes, lists are defined by having values between square brackets [ ].
