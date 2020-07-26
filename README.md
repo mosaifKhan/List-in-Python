@@ -118,3 +118,75 @@ Just as strings are defined as characters between quotes, lists are defined by h
 >>> nums
 [6, 8, 27, 27, 45, 67, 89, 89, 90, 94, 348, 677, 688]
 >>> 
+
+=================================================================================================================================================================
+
+# Tuple:
+A tuple is a collection of objects which ordered and immutable. 
+Tuples are sequences, just like lists. 
+The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.
+
+
+>>> tup = (24,567,76,9,9,3)
+>>> tup
+(24, 567, 76, 9, 9, 3)
+
+>>> tup [2]
+76
+>>> tup [4]
+9
+
+>>> tup1 = ('M Khan', 'S Khan', 23,355,46)
+>>> tup1
+('M Khan', 'S Khan', 23, 355, 46)
+
+>>> tup2 = (23,4,66,57,3,35,47,76)
+>>> tup2
+(23, 4, 66, 57, 3, 35, 47, 76)
+
+>>> tup3 = (tup1+tup2)
+>>> tup3
+('M Khan', 'S Khan', 23, 355, 46, 23, 4, 66, 57, 3, 35, 47, 76)
+
+>>> len (tup3)             // to find lenght
+13
+
+>>> tup [4]
+9
+>>> tup3 [4]
+46
+
+>>> 7 in tup              // membership (to find true/false)
+False
+
+>>> 9 in tup
+True
+
+>>> ('khan') * 4           // repetition
+'khankhankhankhan'
+
+>>> (2,3,5)+(6,4,2)        // concantenation
+(2, 3, 5, 6, 4, 2)
+
+===============================================================================================================================================================
+
+
+# Set:
+
+A Set is an unordered collection data type that is iterable, mutable and has no duplicate elements. 
+Python’s set class represents the mathematical notion of a set.
+This is based on a data structure known as a hash table. Since sets are unordered, we cannot access items using indexes like we do in lists.
+
+>>> sett = {3,4,24,56,465,68,33,33}
+>>> sett
+{33, 3, 4, 68, 465, 24, 56}
+
+>>> sett.add (11)
+>>> sett
+{33, 3, 4, 68, 11, 465, 24, 56}
+
+>>> q = {13,24,66,7, 'M Khan'}
+>>> q
+{66, 7, 'M Khan', 13, 24}
+
+
